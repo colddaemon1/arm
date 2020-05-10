@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "Australia East"
+        },
+        "vmList": {
+            "value": "vm01,vm02,vm03"
+        },
+        "domainJoinUserName": {
+            "value": "nlittle.com\\nick@nlittle.com"
+        },
+        "domainJoinUserPassword": {
+            "value": "domainadminpasswordhere"
+        },
+        "domainFQDN": {
+            "value": "nlittle.com"
+        }
+    }
+}
